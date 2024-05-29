@@ -55,8 +55,7 @@ export default function Register() {
           <input placeholder="WhatsApp" value={whatsapp} onChange={e => setWhatsapp(e.target.value)} />
           <div className="input-group">
             <input placeholder="Cidade" value={city} onChange={e => setCity(e.target.value)} />
-            <input placeholder="UF" value={uf} onChange={e => setUf(e.target.value)} style={{ width: 80 }} />
-          </div>
+            </div>
           <button className="button" type="submit"> Cadastrar </button>
         </form>
       </div>
