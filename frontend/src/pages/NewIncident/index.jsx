@@ -52,7 +52,7 @@ export default function NewIncident() {
         <form onSubmit={handleNewIncident}>
           <input placeholder="Titulo do Caso" value={title} onChange={e => setTitle(e.target.value)} />
           <textarea placeholder="Descrição" value={description} onChange={e => setDescription(e.target.value)} />
-          <input placeholder="Valor em Reais" value={value} onChange={e => setValue(e.target.value)} />
+          <input placeholder="Valor em Kzs" value={value} onChange={e => setValue(e.target.value)} />
           <button className="button" type="submit"> Cadastrar </button>
         </form>
       </div>
